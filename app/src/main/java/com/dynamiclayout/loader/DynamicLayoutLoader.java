@@ -16,7 +16,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-final class DynamicLayoutLoader {
+public final class DynamicLayoutLoader {
 
     private static final String TAG = "Dynamic.DynamicoLayoutLoader";
 
