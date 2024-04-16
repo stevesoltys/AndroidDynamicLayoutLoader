@@ -25,7 +25,7 @@ final class DynamicLayoutLoader {
     private Context context;
     private DynamicListener listener;
 
-    DynamicLayoutLoader(String res, String name, ViewGroup layout) {
+    public DynamicLayoutLoader(String res, String name, ViewGroup layout) {
         this.res = res;
         this.name = name;
         this.layout = layout;
