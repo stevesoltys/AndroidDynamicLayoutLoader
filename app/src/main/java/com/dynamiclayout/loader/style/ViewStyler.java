@@ -41,7 +41,7 @@ class ViewStyler implements Styler {
             }else if(width.equalsIgnoreCase("wrap_content")) {
                 params.width = ViewGroup.LayoutParams.WRAP_CONTENT;
             }else {
-                params.height = Display.unitToPx(width, context);
+                params.width = Display.unitToPx(width, context);
             }
         }
 
